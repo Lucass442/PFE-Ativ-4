@@ -1,0 +1,20 @@
+input {
+    padding: 10px;
+    margin: 2px solid #ccc;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+.hidden {
+    display: none;
+}
+.red {
+    color: red;
+}
+.green {
+    color: green;
+}
